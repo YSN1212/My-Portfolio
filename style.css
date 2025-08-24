@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-attachment: fixed;
+    z-index: -999;
+}
+
+.text {
+    margin-top: 250px;
+    margin-left: 200px;
+}
+
+.aboutme {
+    font-size: 50px;
+    text-shadow: 2px 2px 6px black;
+}
+
+.what-i-do {
+    font-size: 50px;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+
+
+header {
+    display: flex;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 999;
+}
+
+#name {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: larger;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: blue;
+    transform: scale(0.9);
+}
+
+#name:hover {
+    color: blue;
+    font-size: large;
+}
+
+i {
+    font-size: 50px;
+}
+
+.blue {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px 5px blackd;
+}
+
+#social-icons {
+
+    margin-top: 50px;
+
+}
+
+.fa-brands {
+    padding-right: 100px;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.format {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cards {
+    margin-top: 500px;
+    padding-top: 10px;
+    overflow: visible;
+    background-color: black;
+}
+
+.title {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 2.2em;
+
+    margin-bottom: 30px;
+}
+
+.container {
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 21.25em;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    box-shadow: 0 10px 20px white;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.fa-code {
+    color: blue;
+    font-size: 7em;
+    padding-bottom: 20px;
+}
+
+.fa-gamepad {
+    color: blue;
+    font-size: 7em;
+    padding-bottom: 20px;
+}
+
+.fa-robot {
+    color: blue;
+    font-size: 7em;
+    padding-bottom: 20px;
+}
+
+.icon {
+    color: blue;
+    text-align: center;
+}
+
+.the-skill {
+    color: black;
+
+}
+
+.info-skill {
+    color: black;
+}
+
+.cards2 {
+    margin-top: 10px;
+    padding-top: 10px;
+    overflow: visible;
+    background-color: white;
+}
+
+.card2 {
+    width: 21.25em;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    box-shadow: 0 10px 20px black;
+    transition: transform 0.3s ease;
+}
+
+.card2:hover {
+    transform: scale(1.1);
+}
+
+.the-project {
+    color: black;
+
+}
+
+.info-project {
+    color: black;
+}
+
+.img {
+    display: block;
+    margin: 0 auto;
+    width: 270px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.learn-more {
+    color: blue;
+}
+
+.fa-youtube {
+    font-size: 30px;
+    padding: 0;
+    text-shadow: 2px 2px 6px black;
+}
+
+.fa-facebook {
+    font-size: 30px;
+    padding: 0;
+    text-shadow: 2px 2px 6px black;
+}
+
+.fa-tiktok {
+    font-size: 30px;
+    padding: 0;
+    text-shadow: 2px 2px 6px black;
+}
+
+
+
+td,
+th {
+
+    padding: 20px 40px;
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+
+}
+
+#youtube {
+    font-size: 50px;
+    padding: 0;
+    text-shadow: 2px 2px 6px black;
+}
+
+#tiktok {
+    font-size: 50px;
+    padding: 0;
+    text-shadow: 2px 2px 6px black;
+}
+
+#facebook {
+    font-size: 50px;
+    padding: 0;
+    text-shadow: 2px 2px 6px black;
+}
+
+@media (max-width: 1000px) {
+
+
+    .text {
+        margin-top: 250px;
+        margin-left: 120px;
+    }
+
+    .aboutme {
+        font-size: 40px;
+        text-shadow: 2px 2px 6px black;
+    }
+
+    .what-i-do {
+        font-size: 40px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    #youtube {
+        font-size: 40px;
+        padding: 0;
+    }
+
+    #tiktok {
+        font-size: 40px;
+        padding: 0;
+    }
+
+    #facebook {
+        font-size: 40px;
+        padding: 0;
+    }
+
+    .fa-youtube {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .fa-facebook {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .fa-tiktok {
+        font-size: 20px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 700px) {
+
+     .text {
+        margin-top: 250px;
+        margin-left: 80px;
+    }
+
+    .aboutme {
+        font-size: 35px;
+        text-shadow: 2px 2px 6px black;
+    }
+
+    .what-i-do {
+        font-size: 35px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    #youtube {
+        font-size: 35px;
+        padding: 0;
+    }
+
+    #tiktok {
+        font-size: 35px;
+        padding: 0;
+    }
+
+    #facebook {
+        font-size: 35px;
+        padding: 0;
+    }
+
+    .fa-youtube {
+        font-size: 15px;
+        padding: 0;
+    }
+
+    .fa-facebook {
+        font-size: 15px;
+        padding: 0;
+    }
+
+    .fa-tiktok {
+        font-size: 15px;
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 560px) {
+
+    .text {
+        margin-top: 250px;
+        margin-left: 50px;
+    }
+    
+    .aboutme {
+        font-size: 35px;
+        text-shadow: 2px 2px 6px black;
+    }
+
+    .what-i-do {
+        font-size: 35px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    #youtube {
+        font-size: 35px;
+        padding: 0;
+    }
+
+    #tiktok {
+        font-size: 35px;
+        padding: 0;
+    }
+
+    #facebook {
+        font-size: 35px;
+        padding: 0;
+    }
+
+    .fa-youtube {
+        font-size: 15px;
+        padding: 0;
+    }
+
+    .fa-facebook {
+        font-size: 15px;
+        padding: 0;
+    }
+
+    .fa-tiktok {
+        font-size: 15px;
+        padding: 0;
+    }
+
+}
